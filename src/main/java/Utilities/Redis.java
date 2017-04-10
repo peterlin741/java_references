@@ -12,7 +12,7 @@ public class Redis {
     public static void main(String[] args) {
 
         //Connecting to Redis server on localhost
-        Jedis jedis = new Jedis("EqOptQaRedis01.nam.nsroot.net");
+        Jedis jedis = new Jedis("");
 
         // Select DB Number
         selectDB(jedis, 5);
