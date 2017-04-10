@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Locations>
+
+    <Location Define="localhost,dummy" Environment="qa">
+        <info
+                Class="class 1"
+                Factory="factory 1"
+        />
+        <services>
+            <add key="key 1a" name="name 1a"/>
+            <add key="key 1b" name="name 1b"/>
+
+        </services>
+    </Location>
+
+    <Location Define="dummy" Environment="dev">
+        <info
+                Class="class 2"
+                Factory="factory 2"
+        />
+        <services>
+            <add key="key 2" name="name 2"/>
+        </services>
+    </Location>
+
+</Locations>
